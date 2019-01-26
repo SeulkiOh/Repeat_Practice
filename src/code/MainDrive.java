@@ -78,7 +78,7 @@ public class MainDrive {
 			System.out.println();
 		}
 		 */
-		
+		/*
 //		3.2) 기초 삼각형 별찍기
 //		* i = 0 , 별은 1개
 //		**	i=1, 별2개
@@ -97,6 +97,34 @@ public class MainDrive {
 			System.out.println();
 			
 		}
+		*/
+//		3.3) 역방향 별찍기
+//		***** i =0, 별5
+//		**** i = 1 , 별4
+//		*** i=2, 별3
+//		**
+//		*
+		
+//		첫번째 방법 : i와 j의 연관 관계 추측
+//		for (int i = 0; i < 5; i++) {
+//			for (int j = 0; j < 5-i; j++) {
+//				
+//				System.out.print("*");
+//				
+//			}
+//			System.out.println();
+//			
+//		}
+		
+//		두 번째 방법 : 감소형
+		for (int i = 0; i < 5; i++) {
+			for (int j = 5; j > i; j--) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+		
 	}
 
 }
