@@ -3,9 +3,10 @@ package code;
 public class MainDrive {
 	
 	public static void main(String[] args) {
+/*
 //		1.12345를 5번 반복한다.
 		
-//		12345
+//		12345 
 //		12345
 //		12345
 //		12345
@@ -23,9 +24,14 @@ public class MainDrive {
 //			가로로 1~5를 찍고나면 줄을 바꿈.
 			System.out.println();
 			
-		}
+		} */
 		
-
+//		2. 구구단 2단까지 찍기. => 2~9단까지 출력하기.
+//		2x1 = 2
+//		2x2 = 4
+//		...
+//		9x1 = 9
+//		9x9= 81
 	}
 
 }
