@@ -31,7 +31,33 @@ public class MainDrive {
 //		2x2 = 4
 //		...
 //		9x1 = 9
-//		9x9= 81
+//		9x9 = 81
+		
+//		반복요소가 2개
+//		1) 각 단의 내용을 출력
+//		  => 2 * 1 = 2. 2 * 2 = 4 
+//		2) 단 자체를 출력
+//		  => 3 * 1 , 4 * 1
+		
+//		둘중에 뭐가 더 바쁜가? 1)반복문이 더 바쁨. 안으로 들어감. j
+//		2)반복을 먼저 작성 : i
+		
+//		단 자체를 담당. i
+		for (int i = 2; i <= 9; i++) {
+//			각 단의 내용을 담당. j
+			for (int j = 1; j <= 9; j++) {
+				
+				int result;
+				result = i * j;
+//				String.format과 i,j,result를 이용해서 상황에 맞는 문장 출력
+				System.out.println(String.format("%d x %d = %d", i,j,result));
+				
+			}
+			
+			
+			
+			
+		}
 	}
 
 }
