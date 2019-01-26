@@ -59,6 +59,7 @@ public class MainDrive {
 			
 		}
 */
+		/*
 //		3. 별찍기
 		
 //		3.1) 정사각형 5x5 사이즈의 별 찍기. 연습문제
@@ -76,8 +77,26 @@ public class MainDrive {
 			}
 			System.out.println();
 		}
-	
-	
+		 */
+		
+//		3.2) 기초 삼각형 별찍기
+//		* i = 0 , 별은 1개
+//		**	i=1, 별2개
+//		*** i=2, 별3개
+//		**** i=3, 별4개
+//		***** i=4, 별5개
+		
+//		가로 출력 담당 변수 : j 안쪽 for문
+//		세로 출력 담당 변수 : i 바깥 for문
+		
+//		반복문의 반복 횟수 ? 
+		for (int i = 0; i < 5; i++) {
+			for (int j = 0; j < (i+1) ; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+			
+		}
 	}
 
 }
